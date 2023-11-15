@@ -1,0 +1,37 @@
+    const handlesubmit = (e) => {
+        e.preventDefault();
+        const ref = collection(firestore, "LoginCred") // Firebase creates this automatically
+        const docRef = doc(firestore, "LoginCred", "User1" );
+        let data = {
+            UserName: username,
+            Password: username
+        }
+
+        try {
+            setDoc(docRef, data)
+        } catch (err) {
+            console.log(err)
+        }
+    }
+
+
+
+
+
+
+
+
+
+    const handlesubmit = (e) => {
+        e.preventDefault();
+        const usersRef = database.ref('LoginCred');
+
+        // Use the child() method to search for the user ID
+        usersRef.child(userId).once('value', (snapshot) => {
+          const user = snapshot.val();
+          console.log('User found:', user);
+        });
+    }
+
+Objtivr
+dublicate usernames

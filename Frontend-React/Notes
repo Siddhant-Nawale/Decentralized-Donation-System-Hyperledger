@@ -1,0 +1,18 @@
+npm install -D tailwindcss
+npx tailwindcss init
+
+
+npm install --save react-jquery-plugin
+
+
+
+npm install --save @fortawesome/react-fontawesome @fortawesome/fontawesome-svg-core @fortawesome/free-brands-svg-icons
+
+
+npm install validator
+
+npm i axios
+
+
+
+npm install react-router-dom@6

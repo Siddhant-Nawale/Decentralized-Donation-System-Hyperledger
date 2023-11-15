@@ -1,0 +1,790 @@
+
+body{
+	width: 100vw;
+	min-height: 90vh;
+	font-family: "Open Sans", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow:auto;
+}
+
+body::-webkit-scrollbar {
+	display: none;
+  }
+.Home_Main{
+    background-color: #282c34;
+    /* min-height: 90vh; */
+}
+
+
+a:hover {
+	transform: translateY(-2px);
+}
+.test_border{
+    border: red solid 4px;
+	/* background-color: antiquewhite; */
+}
+.test_bg{
+    background-image: url("../Assets/Images/test_bg.jpg");
+}
+
+
+.nav{
+	background-color: transparent;
+	overflow: hidden;
+    position: absolute;
+	z-index: 100;
+}
+.navbar_SpecialButton_right_border{
+    border-right: #282c34 solid 1px;
+}
+
+/*/////////////// Section 1 ////////////////////*/
+
+.section1{
+	max-height: 90vh;
+	/* min-height: 90vh; */
+	width: 100vw;
+	position: relative;
+}
+
+.section1_maindata{
+	/* position: relative; */
+}
+.section1_cover{
+	height: 90vh;
+	width: 100vw;
+	position: absolute;
+	/* z-index: 10; */
+	background-color: rgb(0, 0, 0);
+	/*backdrop-filter: blur(5px);
+	/* background-blend-mode: color-burn; */
+	opacity: 0.4;
+	top: 0;
+	font-size: 5vw;
+}
+
+.section1_covertext {
+	height: 90vh;
+	width: 100vw;
+	position: absolute;
+	/* z-index: 10; */
+	/* background-color: rgb(0, 0, 0); */
+	/*backdrop-filter: blur(5px);
+	/* background-blend-mode: color-burn; */
+	/* opacity: 0.3; */
+	top: 0;
+	display: flexbox;
+	align-items: center;
+	justify-content: center;
+}
+.section1_covertext .p1{
+
+	font-family: 'Lexend Deca', sans-serif;
+	/* display: flex; */
+	/* color: ; */
+	font-size: 6vw;
+	
+}
+
+.section1_covertext .p2{
+
+	font-family: 'Lexend Deca', sans-serif;
+	/* display: flex; */
+	color:aquamarine;
+	font-size : 3vw;
+	padding-left: 2vw;
+}
+.section1_covertext .hr1{
+	width: 10vw;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+	height: 0.5vh;
+	color:aquamarine;
+	font-size : 1vw;
+	/* padding-left: 5vw; */
+}
+.section1_covertext .b1{
+
+	font-family: 'Lexend Deca', sans-serif;
+	/* display: flex; */
+	color:aquamarine;
+	font-size : 1vw;
+	/* padding-left: 5vw; */
+}
+
+.positionabso {
+	position: absolute;
+}
+
+
+/* .slideshow img{
+	background-size: 4;
+} */
+/*/////////////// Slide show ////////////////////*/
+
+
+.fadeingani {
+	height: 90vh;
+	opacity: 0.5;
+	width: 100vw;
+	filter: brightness(50%);
+}
+.slideshow {
+	margin: auto;
+	width: 60%;
+	border: 3px solid black;
+	padding: 10px;	
+}
+/*/////////////// Slide show End //////////////////*/
+
+/*/////////////// Section 1 end ////////////////////*/
+
+/*/////////////// Section 2 ////////////////////*/
+.section2{
+	/* max-height: 90vh; */
+	min-height: 90vh;
+	width: 100%;
+
+	/* font-family: 'Lexend Deca', sans-serif; */
+	font-family: "Open Sans", sans-serif;
+	background-color:aliceblue;
+	padding: 2vh;
+	padding-top: 5vh;
+}
+
+.section2 .heading{
+
+}
+.section2 .heading .p1{
+	text-decoration: solid;
+	text-align: center;
+	font-size: xx-large;
+}
+/*/////////////// Section 2 end ////////////////////*/
+
+/*/////////////// Section 2_1 ////////////////////*/
+.section2_1{
+	/* max-height: 90vh; */
+	min-height: 90vh;
+	width: 100%;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+	/* font-family: 'Lexend Deca', sans-serif; */
+	font-family: "Open Sans", sans-serif;
+	background-color:aliceblue;
+	padding: 2vh;
+	padding-top: 5vh;
+
+}
+
+.section2_1 .heading{
+
+}
+.section2_1 .heading .p1{
+	text-decoration: solid;
+	text-align: center;
+	font-size: xx-large;
+}
+/*/////////////// Section 2_1 end ////////////////////*/
+
+
+/*/////////////// Section 3 ////////////////////*/
+.section3{
+	/* max-height: 100vh; */
+	min-height: 90vh;
+	width: 100vw;
+	background-color:rgb(244, 244, 244);
+	/* background-color:rgb(33, 32, 78); */
+	position: relative;
+
+}
+
+.Section3_card_area{
+	align-items: center;
+	/* justify-items: center; */
+	justify-content: center;
+
+}
+.Section3_card_contents {
+	min-height: 50vh;
+	justify-content: left;
+
+}
+.section3 .b1{
+	font-family: 'Lexend Deca', sans-serif;
+	/* display: flex; */
+	/* color:aquamarine; */
+	/* font-size : 1vw; */
+	margin: 0;
+	font-size : 1vw;
+	/* bottom:  0vh; */
+}
+.section3_box{
+	min-height: 70vh;
+	margin: -5px;
+	margin-top: 5vw;
+	margin-bottom: 5vw;
+	background: rgb(255, 255, 255);
+	/* border-radius: 16px; */
+	/* box-shadow: 0 4px 30px rgba(33, 33, 33, 0.615); */
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 5px solid rgba(203, 203, 203, 0.3);
+}
+.vertical_divider{
+	min-height: 20vh;
+	/* width: 5vw; */
+	/* margin: 2.5vw; */
+	border-left: 10px solid rgb(0, 0, 0);
+}
+
+.footer_data .p{
+	
+	color: azure;
+	font-size: medium;
+}
+.blue-glassmorphism {
+	min-height: 70vh;
+	margin:1vw;
+	background: rgba(70, 90, 154, 0.4);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  
+
+
+
+
+  .section3_cover{
+	height: 90vh;
+	width: 100vw;
+	position: absolute;
+	/* z-index: 10; */
+	background-color: rgb(0, 0, 0);
+	/*backdrop-filter: blur(5px);
+	/* background-blend-mode: color-burn; */
+	opacity: 0.4;
+	top: 0;
+	font-size: 5vw;
+}
+
+.section3_covertext {
+	height: 90vh;
+	width: 100vw;
+	position: absolute;
+	/* z-index: 10; */
+	/* background-color: rgb(0, 0, 0); */
+	/*backdrop-filter: blur(5px);
+	/* background-blend-mode: color-burn; */
+	/* opacity: 0.3; */
+	top: 0;
+	display: flexbox;
+	align-items: center;
+	justify-content: center;
+}
+.section3_covertext .p1{
+
+	font-family: 'Lexend Deca', sans-serif;
+	/* display: flex; */
+	/* color: ; */
+	font-size: 8vw;
+	
+}
+
+.section3_covertext .p2{
+
+	font-family: 'Lexend Deca', sans-serif;
+	/* display: flex; */
+	color:aquamarine;
+	font-size : 3vw;
+	padding-left: 2vw;
+}
+.section3_covertext .hr1{
+	width: 10vw;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+	height: 0.5vh;
+	color:aquamarine;
+	font-size : 1vw;
+	/* padding-left: 5vw; */
+}
+.section3_covertext .b1{
+
+	font-family: 'Lexend Deca', sans-serif;
+	/* display: flex; */
+	color:aquamarine;
+	font-size : 1vw;
+	/* padding-left: 5vw; */
+}
+
+/*/////////////// Section 3 end ////////////////////*/
+
+
+
+/*/////////////// Section 4 ////////////////////*/
+.section4{
+	/* max-height: 100vh; */
+	min-height: 90vh;
+	width: 100vw;
+	padding-top: 5vh;
+	/* background-color: #0f0e13;
+	background-image: 
+    radial-gradient(at 0% 100%, hsla(253,16%,7%,1) 0, transparent 50%), 
+    radial-gradient(at 50% 0%, hsla(225,39%,25%,1) 0, transparent 50%); */
+}
+.cardholder{
+	display: flex;
+        flex-wrap: wrap;
+}
+.Section4_card_contents{
+	min-height: 40vh;
+	justify-content: left;
+}
+  /* white glassmorphism */
+  .white-glassmorphism {
+	min-height: 50vh;
+	margin: 4vw;
+	/* margin-top: 5vw; */
+	background: rgb(255, 255, 255);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(33, 33, 33, 0.615);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(203, 203, 203, 0.3);
+  }
+
+
+.section4 .heading .p1{
+	width: 100vw;
+	color :black;
+	font-family: 'Lexend Deca', sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	
+	font-size:xx-large;	
+	text-align: center;
+}
+/*/////////////// Section 4 end ////////////////////*/
+
+
+/*//////////////// Section 5 ////////////////////*/
+.section5{
+	max-height: 90vh;
+	min-height: 90vh;
+	width: 100%;
+	background-color: #1b1313;
+	background-image: 
+    radial-gradient(at 0% 100%, rgb(56, 56, 42) 0, transparent 50%), 
+    radial-gradient(at 50% 150%, rgb(89, 89, 39) 0, transparent 30%),
+    radial-gradient(at 100% 150%, rgb(68, 27, 27) 0, transparent 50%),
+    radial-gradient(at 0% 150%, rgb(89, 39, 39) 0, transparent 30%);
+
+}
+/* background-color: #1b1313;
+background-image: 
+radial-gradient(at 0% 100%, hsla(253,16%,7%,1) 0, transparent 50%), 
+radial-gradient(at 50% 120%, hsla(225,39%,25%,1) 0, transparent 50%),
+radial-gradient(at 100% 100%, rgb(27, 37, 68) 0, transparent 50%),
+radial-gradient(at 0% 100%, hsla(225,39%,25%,1) 0, transparent 50%); */
+/*/////////////// Section 5 end ////////////////////*/
+
+
+
+
+/*/////////////// Section 6 :Footer ////////////////////*/
+
+.section6{
+	max-height: 90vh;
+	min-height: 40vh;
+	margin-top: 100px;
+	position:relative;
+	bottom: 0;
+	width: 100%;
+	background-color: #1b1914dc;
+	/* background-image: 
+    radial-gradient(at 0% 100%, hsla(253,16%,7%,1) 0, transparent 50%), 
+    radial-gradient(at 50% 0%, hsla(225,39%,25%,1) 0, transparent 50%); */
+}
+
+
+
+.footer_divider{
+	color: #6d6d37;
+	height: 30vh;
+	/* width: 5vw; */
+	margin: 2.5vw;
+	border-left: 1px solid rgb(128, 94, 0);
+	
+}
+
+.a{
+	margin-left: 6vw;
+}
+
+.footer_data{
+	/* width: 15%; */
+	padding-top: 5vh;
+}
+
+.footer_data .p1{
+ color: rgb(226, 159, 72);
+ margin-bottom: 2vh;
+}
+
+.footer_data .p2{
+	
+ color: azure;
+ font-size: small;
+}
+
+
+.footer_data .p6{
+	color: azure;
+	font-size:medium;
+}
+
+
+.Footerpart1{
+	width: 22%;
+}
+
+.Footerpart2{
+	width: 18%;
+}
+
+.Footerpart3{
+	width: 15%;
+}
+.Footerpart4{
+	/* justify-items: right; */
+	/* align-content: right; */
+	/* justify-content: right; */
+	text-align: right;
+	width: 19%;
+	/* background: #eee; */
+	/* padding: 25px 50px; */
+}
+
+a.social {
+	margin-left:1rem;
+	transition: transform 250ms;
+	display: inline-block;
+}
+
+a.social:hover {
+	transform: translateY(-2px);
+}	
+
+a.youtube {
+	color: #eb3223;
+}
+
+a.facebook {
+	color: #4968ad;
+}
+
+a.twitter {
+	color: #49a1eb;
+}
+
+a.instagram {
+	color: black;
+}
+
+/*/////////////// Section 6 end ////////////////////*/
+
+
+/*/////////////// Registration_Section1   ////////////////////*/
+.StuReg_Section1{
+	min-height: 70vh;
+	padding-top: 10vh;
+	position: relative;
+	padding-left: 10vh;
+	padding-right: 10vh;
+	
+}
+.Sectionchanger{
+	width: 100%;
+	position: relative;
+	height: 20vh;
+}
+.SectionchangerOptions{
+	margin-left: 20px;
+	background-color: #49a1eb;
+	position: relative;
+	/* color: white; */
+	width:90px;
+	height:90px;
+	/* text-align: center; */
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	padding : 10px;
+	border-radius: 50%;
+}
+
+
+/* Style the tab */
+.tab {
+	overflow: hidden;
+	width: 100%;
+	display:flex;
+	/* margin: 10%; */
+	/* margin-bottom: 0; */
+	/* justify-items: center; */
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+	/*  */
+	margin-left: 20px;
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+	font-size: 17px;
+	/*  */
+
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+	background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {	
+	margin-left: 20px;
+	background-color: #49a1eb;
+	position: relative;
+	color: white;
+	width:90px;
+	height:90px;
+	/* text-align: center; */
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	padding : 10px;
+	border-radius: 50%;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+	/* text-align: center; */
+/* align-items: center; */
+justify-content: center;
+
+	display: none;
+	padding: 6px 12px;
+	border: 1px solid #ccc;
+	border-top: none;
+  }
+  .tabcontent.activecontent {
+	display: flex;
+	
+	justify-content: center;
+	/* align-items: center;	 */
+	
+  }
+
+
+
+
+
+StuReg_Section1 .heading .p1{
+	font-size: xx-large;
+}
+.StuReg_Section1 hr{
+	color: #eb3223;
+	width: 10vw;
+	border: 2px solid red;
+}
+
+.RegistrationContent{
+	/* display: flex; */
+	justify-content: center;
+	border: 1px solid rgb(184, 0, 0);
+	width: 100%;
+}
+input {
+	background-color: #003ab608;
+}
+.table {
+	display: block;
+	
+	justify-content: center;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 100%;
+  	font-weight: bold;
+  	background-color: white;
+	/* border: 1px solid rgb(0, 0, 0); */
+
+}
+.row{
+	padding:1vh;
+	/* padding-left: 1vw; */
+	/* border: 1px solid rgb(184, 0, 0); */
+
+	
+}
+.col{
+	padding:1vh;
+	display:flexbox;
+	border: 1px solid rgb(21, 19, 19);
+
+}
+h1 {
+   color: #ea503f;
+   font-family: Arial;
+   text-align: center;
+}
+.RegistrationContentSubmitButton{
+	/* align-self: center; */
+	/* align-items: center; */
+	/* display: flex; */
+	position: relative;
+	/* justify-items: center; */
+	/* align-self: center; */
+	/* align-items: center; */
+	/* align-content: center; */
+	/* margin-top: 2vh; */
+	margin: 2px;
+}
+.RegistrationContentSubmitButton div{
+	margin-left: 70%;
+}
+.mainformStudentRegistration{
+	border: 1px solid #ccc;
+}
+.ReturnUserNameCheck{
+	color: red;
+}
+.mainformCompanyRegistration{
+	border: 1px solid #ccc;
+}
+/*/////////////// Reg_Section1 end ////////////////////*/
+
+
+
+
+/*///////////////Login///////////////////////*/
+
+
+.Login .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Login .logo img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+.Login .login-form {
+  background-color: #ffffff;
+  padding: 30px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.Login .login-form h1 {
+  margin-top: 0;
+}
+
+.Login form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Login label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.Login input[type="text"],
+.Login input[type="password"] {
+  padding: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.Login input[type="submit"] {
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Login input[type="submit"]:hover {
+  background-color: #2980b9;
+}
+
+.Login .forgot-password {
+  margin-top: 10px;
+}
+
+.Login .forgot-password a {
+  color: #aaaaaa;
+  text-decoration: none;
+}
+
+.Login .forgot-password a:hover {
+  text-decoration: underline;
+}
+
+.Login .sign-up {
+  margin-top: 30px;
+  color: #aaaaaa;
+  text-align: center;
+}
+
+.Login .sign-up a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.Login .sign-up a:hover {
+  text-decoration: underline;
+}
+
+
+
+/*/////////////// Login end ////////////////////*/
+
+
+
+
+/*///////////////StudentDashboardBody///////////////////////*/
+
+.mainStudentDashboardBody{
+	min-height: 70vh;
+	padding-top: 10vh;
+}
+
+
+/*/////////////// StudentDashboardBody end ////////////////////*/
+
+
+
+
+/*///////////////Login///////////////////////*/
